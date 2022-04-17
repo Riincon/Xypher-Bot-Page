@@ -12,6 +12,10 @@ app.get('/invitar', (req, res) => {
 res.sendFile(path.join(__dirname+'/public/invitar.html')) 
 })
 
+app.get('/soporte', (req, res) => {
+res.sendFile(path.join(__dirname+'/public/soporte.html')) 
+})
+
 app.listen(3000, () => {
   console.log("Server in port")
 })
