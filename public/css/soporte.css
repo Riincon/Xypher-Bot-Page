@@ -1,0 +1,77 @@
+body{
+  background-color: #272935;
+}
+
+
+
+.container{
+  text-align: center;
+  margin-top: 50px;
+  height: 400px;
+  max-width: 30vh; 
+  border-radius: 4%;
+  border: 2px solid white;
+  margin-left: 220px; /*85*/
+  margin-bottom: 40px;
+}
+
+.container p{
+  color: white;
+  text-align: center;
+}
+
+.title-staff{
+  margin-top: 15px;
+text-align: center;
+  color: white;
+}
+
+.raya{
+  margin-top: 15px;
+   border-radius: 1%;
+  border: 1px solid white;
+}
+
+.imagen{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-top: 45px;
+  
+}
+
+.container h2{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn2{
+  background-color: blue;
+  color: white;
+  position: relative;
+  top: 70px;
+  padding: 15px;
+  border-radius: 7%;
+  border: 2px solid white;
+  width: 100px;
+  height: 100px;
+}
+
+.btn1{
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 70px;
+  width: 90px;
+  height: 30px;
+  padding: 15px;
+  border-radius: 7%;
+  border: 2px solid white;
+}
+
+@media only screen and (min-width:90px) and (max-width:768px){
+.container{ margin-left:85px;}	
+.btn2{	top:90px;	}
+.btn1{  top: 50px;}
+}/*
